@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo List Web</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container container1">
+      <header>
+        <p><span class="tasks">Tasks</span> <span id="lists">Lists</span></p>
+        <div class="add-list">
+          <i class="fas fa-plus-circle fa-3x" id="fa-plus-circle"></i>
+          <p>Add List</p>
+        </div>
+      </header>
+
+      <div class="task-lists">
+        <div class="box">
+          <h2>Trip to Paris</h2>
+          <p><strike>Completed Task</strike></p>
+          <div class="check">
+            <input type="checkbox" class="check" /> <span>Pending Task</span>
+          </div>
+        </div>
+        <div class="box">
+          <h2>My Todo List</h2>
+          <p><strike>Completed Task</strike></p>
+          <div class="check">
+            <input type="checkbox" class="check" /> <span>Pending Task</span>
+          </div>
+        </div>
+        <div class="box">
+          <h2>My Todo List</h2>
+          <p><strike>Completed Task</strike></p>
+          <div class="check">
+            <input type="checkbox" class="check" /> <span>Pending Task</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="list-popup">
+        <p>Add New List</p>
+        <input type="text">
+        <button>ADD</button>
+    </div>
+
+    <div class="pages">
+      <a href="./page2.html">prev</a> | 
+      <a href="./page4.html">next</a>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/js/all.min.js"
+      integrity="sha512-cyAbuGborsD25bhT/uz++wPqrh5cqPh1ULJz4NSpN9ktWcA6Hnh9g+CWKeNx2R0fgQt+ybRXdabSBgYXkQTTmA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
+</html>

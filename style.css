@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+}
+
+.container {
+  height: 100vh;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-list {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.add-list p {
+  font-size: 35px;
+  font-family: "Zen Maru Gothic", sans-serif;
+}
+
+.tasks {
+  font-weight: 600;
+  font-size: 50px;
+  font-family: sans-serif;
+}
+
+#lists {
+  font-size: 50px;
+  font-family: "Zen Maru Gothic", sans-serif;
+}
+
+#fa-plus-circle {
+  color: rgb(243, 40, 40);
+}
+
+.fa-arrow-circle-left {
+  color: rgb(243, 40, 40);
+}
+
+.fa-3x {
+  font-size: 37px;
+}
+
+.task-lists {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  border: 2px solid rgb(224, 68, 68);
+  width: 280px;
+  height: 400px;
+  border-radius: 12px;
+  box-shadow: 7px 15px 10px rgba(0, 0, 0, 0.116);
+}
+
+.box h2 {
+  font-family: "Zen Maru Gothic", sans-serif;
+  color: rgb(224, 68, 68);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.295);
+  margin-left: 50px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-size: 28px;
+}
+
+.box hr {
+  margin-left: 50px;
+}
+
+.box p {
+  font-size: 28px;
+  margin-top: 50px;
+  padding-left: 50px;
+}
+
+.box p strike {
+  color: red;
+}
+
+.box span {
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  margin-left: 10px;
+}
+
+.check {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.box input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+
+.pages {
+  position: absolute;
+  right: 60px;
+  bottom: 30px;
+  font-size: 30px;
+  text-transform: uppercase;
+  background-color: black;
+  padding: 10px;
+}
+
+.pages a {
+  text-decoration: none;
+  color: white;
+}
+
+.container1 {
+  filter: blur(7px);
+}
+
+.list-popup {
+  height: 190px;
+  width: 380px;
+  border-style: solid;
+  position: absolute;
+  top: 30%;
+  left: 37%;
+  border-color: rgb(241, 116, 116);
+  border-radius: 15px;
+  background-color: white;
+  text-align: center;
+  color: rgb(241, 116, 116);
+}
+
+.list-popup input {
+  display: block;
+  margin-left: 20%;
+  padding: 5px 40px;
+  border-color: rgb(241, 116, 116);
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+.list-popup p {
+  margin-top: 25px;
+  font-size: 22px;
+}
+
+.list-popup button {
+  margin-top: 20px;
+  padding: 10px 25px;
+  border-radius: 15px;
+  background-color: rgb(226, 73, 73);
+  border: none;
+  color: white;
+}
+
+.selected-task {
+  border: 2px solid rgb(241, 116, 116);
+  width: 370px;
+  height: 350px;
+  border-radius: 10px;
+  box-shadow: 7px 15px 10px rgba(0, 0, 0, 0.116);
+  margin: auto;
+  position: relative;
+}
+
+.selected-task p {
+  font-size: 25px;
+  margin-top: 50px;
+  padding-left: 80px;
+}
+
+.selected-task p strike {
+  color: red;
+}
+
+.selected-task span {
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  margin-left: 5px;
+}
+
+.selected-task h2 {
+  font-family: "Zen Maru Gothic", sans-serif;
+  color: rgb(224, 68, 68);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.514);
+  margin-left: 80px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-size: 28px;
+}
+
+.check-2 {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.selected-task input[type="checkbox"] {
+  width: 17px;
+  height: 17px;
+}
+
+.selected-task i {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.back-btn {
+  text-align: center;
+  margin: 35px 0 50px 0;
+}
+
+.back-btn span {
+  font-size: 30px;
+  font-family: "Zen Maru Gothic", sans-serif;
+  margin-left: 10px;
+  /* font-weight: bold; */
+}
+
+.head {
+  background-color: white;
+  padding: 10px;
+  font-size: 50px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.799);
+  font-family: sans-serif;
+  width: 50%;
+  text-align: center;
+  position: relative;
+  margin: 30px auto;
+}
+
+.head hr {
+  width: 22%; 
+}
+
+.hr1 {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.hr2 {
+  position: absolute;
+  right: 40px;
+  top: 40px;
+}
