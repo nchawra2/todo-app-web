@@ -17,6 +17,10 @@ body {
   padding-top: 50px;
 }
 
+a {
+  text-decoration: none;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -247,7 +251,7 @@ header {
 }
 
 .head hr {
-  width: 22%; 
+  width: 22%;
 }
 
 .hr1 {
