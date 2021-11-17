@@ -170,6 +170,7 @@ header {
   background-color: rgb(226, 73, 73);
   border: none;
   color: white;
+  cursor: pointer;
 }
 
 .selected-task {
